@@ -1,0 +1,13 @@
+{
+    "pg_data":
+    {
+        "user":             "postgres",
+        "ip_addr":          "10.10.10.10",
+        "database":         "database-name",
+        "password_pg":      "password"
+    },
+    "urls":
+    {
+        "url_1":            "http://10.10.11.11:9090/api/v1/query?query=sum%20by%28pid%2Cstate%2Cquery%2Cclient_addr%29%28last_over_time%28pg_zslow_date_part%7Binstance%3D%22192.168.10.244%3A9187%22%7D%0A%5B1d%5D%29%29"
+    }
+}
